@@ -1,0 +1,14 @@
+pyusb==1.0.0a3
+units >= 0.5
+argparse
+requests==2.4.1
+protobuf==2.6.1
+
+[bluetooth]
+pybluez
+
+[lxml]
+lxml
+
+[serial]
+pyserial

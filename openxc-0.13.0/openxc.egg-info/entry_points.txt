@@ -1,0 +1,11 @@
+[console_scripts]
+openxc-control = openxc.tools.control:main
+openxc-dashboard = openxc.tools.dashboard:main
+openxc-diag = openxc.tools.diagnostics:main
+openxc-dump = openxc.tools.dump:main
+openxc-generate-firmware-code = openxc.tools.generate_code:main
+openxc-gps = openxc.tools.gps:main
+openxc-obd2scanner = openxc.tools.obd2scanner:main
+openxc-scanner = openxc.tools.scanner:main
+openxc-trace-split = openxc.tools.tracesplit:main
+
