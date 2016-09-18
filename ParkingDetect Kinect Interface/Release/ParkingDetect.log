@@ -1,0 +1,10 @@
+﻿  ImageRenderer.cpp
+  ParkingDetect.cpp
+ParkingDetect.cpp(546): error C3861: 'PyString_FromString': identifier not found
+ParkingDetect.cpp(551): error C3861: 'PyString_FromString': identifier not found
+ParkingDetect.cpp(555): error C3861: 'PyInt_AsLong': identifier not found
+ParkingDetect.cpp(561): error C3861: 'PyString_FromString': identifier not found
+ParkingDetect.cpp(572): error C2440: 'initializing': cannot convert from 'void *' to 'int *'
+  ParkingDetect.cpp(572): note: Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+ParkingDetect.cpp(574): error C2065: 'py_tuple': undeclared identifier
+ParkingDetect.cpp(574): error C3861: 'PyInt_AsLong': identifier not found
