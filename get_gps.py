@@ -8,7 +8,7 @@ def get_gps():
 	IP = socket.gethostbyname(socket.gethostname())
 	# Bind the socket to the port
 
-    server_address = (str(IP), 10000)
+    server_address = ("""hardcoded value""", 10000)
     print >>sys.stderr, 'connecting to %s port %s' % server_address
     s.connect(server_address)
     
@@ -30,6 +30,6 @@ def get_gps():
 	        print >>sys.stderr, 'received "%s"' % data
 
 	finally:
-		return data
 	    print >>sys.stderr, 'closing socket'
 	    sock.close()
+	    return data
