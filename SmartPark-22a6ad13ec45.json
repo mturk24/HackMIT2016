@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "smartpark-16",
+  "private_key_id": "22a6ad13ec457f1ad95d30cad82695e6a6d47faa",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDvkQ7I6grnJYJu\n0M7MFaFyWwQRqP6MT/KbRuCwDyDYarRjTJMjKJ/s01AnQS8J1h3giAxaw1WdqEWd\n+JGMF1hmcwgZGvNZVjYUPQCWVDGRrW0ZW9xUh96Fu6zPUF3dx6GaUMIo5zthC6Ov\nW/9C6IN5Q3SqKeTAV4qK4k7ugrDPzG5po3mRCtHwkjehQRUhc9qUGzNbdRfl+Jke\n20TvMpoXNqON6pk+PPwmeoVGsJO56hSbbBVMw2boMlpNdGM2eN48WOjUuUGMwtmP\ntAQBBxsV/mOsaujOp01NS+ylxXjB0tMoTBwKY2k+NFAMJIgA17MDYiVQ6HWqYk/S\n3Q220eXTAgMBAAECggEAaC8IY/3McguQ9speNMjvZkEIuvlogfK+yiJ/0nEx0oxN\nGKYTkwW2zxJy2C9z2m5AngXsgYhTcnXcmL+h5G++pQc/rVNYIzDn4dNJrxa8W+M1\nAANABY71Cem9VIdZ2vpXYDngxlMRMroSHFAA6cMech0Q3nPLpI4tlQqoUveJF0S0\nAGybbZZ8FmNxhY5gV08mBwGDyvOq24ZhD26ecie+deyxTrCFd67o2plF1Oh9JQxC\ntJUkjrZJN8HHHFdksu5PSX5QW88zLEAk7N+exIHxQLtg8fuf3IB5CX4GzhrSH9Xe\nMrIRxSel3knSWfRJaPtZwOza/IMUEcSsRiIMWRGGoQKBgQD+nebnXjtUQUM7zFt3\nF9NrcBLWShFvW/T5GbZhb3JBATRyXhtMZwj7QWpL+eNGHy9nQi1Vy27tPVxG5pRu\nDUP5F1uHs+jqJcAOaHH4ydw4LN3rAK/Yp7yUGoXXQeoF2Hz8O1w2d+v2E3dQS2N1\nGi3LkoyvrWbNAhfuvwfAqwsBEQKBgQDw3jmxkkO2u0SZ5ju/fWuJCO2+BqR78zX7\nkVlmPHJL8GhvCxehxh/scBjHqlI2Hso8hn1Q/8zIXlOOt3L3zsrU/xIcjGWbVtlk\nr1dsrffKA9xqpX3zM5HZaucQNMkBqKMToXnJUj/gjVHvZgLIrd8rqFsfoaM6lSbj\n8KWzRUy4owKBgQCzh58CUL1AoWvIxEVR6ejW/oUpt7wnaw2GfwzMEwrarwDOC3Dw\nJE5+6xcKTz5jeSWxh0X0Eqc6fGOOUpMiLhRZlJCjVMXMI6YSAq8qHxs6ONiZFTjo\naQ1c2H660u0yBf3K1AgnF9O3BO7CHQYZ0cWsnr64OGod73X0j5nlzjTKIQKBgQDC\nIChZb+t5E3bXnlIbI+cOO474bvwUFdE1HlDx79eiUnCoxkTWkgpakYG3MhMuISSX\nIUFQjckq17L6O+nBxP1+KtEbByBA0P9GgXaxVYh2XSRBI33eC3sJwnnVeuVhm9tK\n0AKKeeqXfO5DRnEJ8fACjJ5cYPZgGaONY/73++s4hwKBgQDcK2P2RYA1Pg5sZtpH\nWMRNX7FavsRxksO4QI+vaQzEG9EebeAqeKlRFekf/wc2DFQmg/X8QuZZg6sLO8Fq\nsoPPAVAPPGftL5vDilnqdKuyN9kKM9ITZz1NP0G4ITkqsYmJ6LvZENl+VB2CdfDc\npH7oxHr7dXXjLUSrp1T+24gqAw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "smartpark-16@appspot.gserviceaccount.com",
+  "client_id": "107129076292280777610",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/smartpark-16%40appspot.gserviceaccount.com"
+}
