@@ -4,11 +4,12 @@ import android.content.Context;
 import android.preference.Preference;
 import android.util.Log;
 
+import com.openxc.enabler.R;
 import com.openxc.sinks.DataSinkException;
 import com.openxc.sinks.FileRecorderSink;
 import com.openxc.sinks.VehicleDataSink;
 import com.openxc.util.AndroidFileOpener;
-import com.openxcplatform.enabler.R;
+
 
 /**
  * Enable or disable recording of a trace file.
@@ -46,7 +47,7 @@ public class FileRecordingPreferenceManager extends VehiclePreferenceManager {
 
 
     private void setFileRecordingStatus(boolean enabled) {
-        Log.i(TAG, "Setting recording to " + enabled);
+
         if(enabled) {
             String directory = getPreferenceString(R.string.recording_directory_key);
             if(directory != null) {
@@ -59,8 +60,7 @@ public class FileRecordingPreferenceManager extends VehiclePreferenceManager {
                     getVehicleManager().addSink(mFileRecorder);
                 }
             } else {
-                Log.d(TAG, "No recording base directory set (" + directory +
-                        "), not starting recorder");
+
             }
         } else {
             stopRecording();

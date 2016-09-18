@@ -4,10 +4,11 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
+import com.openxc.enabler.R;
 import com.openxc.sinks.DataSinkException;
 import com.openxc.sinks.UploaderSink;
 import com.openxc.sinks.VehicleDataSink;
-import com.openxcplatform.enabler.R;
+
 
 /**
  * Enable or disable uploading of a vehicle trace to a remote web server.
@@ -47,13 +48,13 @@ public class UploadingPreferenceManager extends VehiclePreferenceManager {
     }
 
     private void setUploadingStatus(boolean enabled) {
-        Log.i(TAG, "Setting uploading to " + enabled);
+//        Log.i(TAG, "Setting uploading to " + enabled);
         if(enabled) {
             String path = getPreferenceString(R.string.uploading_path_key);
             if(!UploaderSink.validatePath(path)) {
                 String error = "Target URL in preferences not valid " +
                         "-- not starting uploading a trace";
-                Log.w(TAG, error);
+//                Log.w(TAG, error);
                 SharedPreferences.Editor editor = getPreferences().edit();
                 editor.putBoolean(getString(R.string.uploading_checkbox_key),
                         false);
@@ -66,7 +67,7 @@ public class UploadingPreferenceManager extends VehiclePreferenceManager {
                 try {
                     mUploader = new UploaderSink(getContext(), path);
                 } catch(DataSinkException e) {
-                    Log.w(TAG, "Unable to add uploader sink", e);
+//                    Log.w(TAG, "Unable to add uploader sink", e);
                     return;
                 }
                 getVehicleManager().addSink(mUploader);

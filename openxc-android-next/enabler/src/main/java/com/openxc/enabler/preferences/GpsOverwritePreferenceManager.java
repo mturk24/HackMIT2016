@@ -4,7 +4,8 @@ import android.content.Context;
 import android.util.Log;
 
 import com.openxc.VehicleLocationProvider;
-import com.openxcplatform.enabler.R;
+import com.openxc.enabler.R;
+
 
 /**
  * Enable or disable overwriting native GPS measurements with those from the
@@ -46,7 +47,7 @@ public class GpsOverwritePreferenceManager extends VehiclePreferenceManager {
     }
 
     private void setNativeGpsOverwriteStatus(boolean enabled) {
-        Log.i(TAG, "Setting native GPS overwriting to " + enabled);
+//        Log.i(TAG, "Setting native GPS overwriting to " + enabled);
         if(mVehicleLocationProvider == null) {
             mVehicleLocationProvider = new VehicleLocationProvider(getContext(),
                     getVehicleManager());

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "724840053107",
+    "firebase_url": "https://my-proje-36f8e.firebaseio.com",
+    "project_id": "my-proje-36f8e",
+    "storage_bucket": "my-proje-36f8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724840053107:android:c44c948c1b610e14",
+        "android_client_info": {
+          "package_name": "com.openxc.enabler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724840053107-4ptm2e395kc1jf15mhmlv1ehffvqd897.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7P6z6MSEoT_utR07qJaqTGWF_mirVm2I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -17,10 +17,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.bugsnag.android.Bugsnag;
-import com.openxcplatform.enabler.BuildConfig;
+
 import com.openxc.VehicleManager;
 import com.openxc.enabler.preferences.PreferenceManagerService;
-import com.openxcplatform.enabler.R;
+
 
 /** The OpenXC Enabler app is primarily for convenience, but it also increases
  * the reliability of OpenXC by handling background tasks on behalf of client

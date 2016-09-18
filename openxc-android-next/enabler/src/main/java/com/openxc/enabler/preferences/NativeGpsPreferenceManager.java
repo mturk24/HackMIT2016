@@ -2,7 +2,8 @@ package com.openxc.enabler.preferences;
 
 import android.content.Context;
 
-import com.openxcplatform.enabler.R;
+import com.openxc.enabler.R;
+
 
 /**
  * Enable or disable reading GPS from the native Android stack.

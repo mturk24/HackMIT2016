@@ -37,7 +37,7 @@ import android.widget.Toast;
 
 import com.openxc.enabler.preferences.PreferenceManagerService;
 import com.openxc.sinks.UploaderSink;
-import com.openxcplatform.enabler.R;
+
 
 /**
  * Initialize and display all preferences for the OpenXC Enabler application.

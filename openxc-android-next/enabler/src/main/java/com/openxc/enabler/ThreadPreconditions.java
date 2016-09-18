@@ -2,7 +2,7 @@ package com.openxc.enabler;
 
 import android.os.Looper;
 
-import com.openxcplatform.enabler.BuildConfig;
+
 
 public class ThreadPreconditions {
     public static void checkOnMainThread() {

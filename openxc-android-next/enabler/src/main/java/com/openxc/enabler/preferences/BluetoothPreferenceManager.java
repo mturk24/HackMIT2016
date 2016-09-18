@@ -13,12 +13,13 @@ import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.util.Log;
 
+import com.openxc.enabler.R;
 import com.openxc.interfaces.bluetooth.BluetoothException;
 import com.openxc.interfaces.bluetooth.BluetoothVehicleInterface;
 import com.openxc.interfaces.bluetooth.DeviceManager;
 import com.openxc.remote.VehicleServiceException;
 import com.openxc.util.SupportSettingsUtils;
-import com.openxcplatform.enabler.R;
+
 
 /**
  * Enable or disable receiving vehicle data from a Bluetooth vehicle interface.
@@ -68,8 +69,7 @@ public class BluetoothPreferenceManager extends VehiclePreferenceManager {
             mBluetoothDeviceManager = new DeviceManager(context);
             fillBluetoothDeviceList();
         } catch(BluetoothException e) {
-            Log.w(TAG, "This device most likely does not have " +
-                    "a Bluetooth adapter");
+
         }
     }
 
@@ -110,21 +110,20 @@ public class BluetoothPreferenceManager extends VehiclePreferenceManager {
 
     private synchronized void setBluetoothStatus(boolean enabled) {
         if(enabled) {
-            Log.i(TAG, "Enabling the Bluetooth vehicle interface");
+
             String deviceAddress = getPreferenceString(
                     R.string.bluetooth_mac_key);
             if(deviceAddress == null || deviceAddress.equals(
                         getString(R.string.bluetooth_mac_automatic_option))) {
                 deviceAddress = null;
-                Log.d(TAG, "No Bluetooth vehicle interface selected -- " +
-                        "starting in automatic mode");
+
             }
 
             try {
                 getVehicleManager().setVehicleInterface(
                         BluetoothVehicleInterface.class, deviceAddress);
             } catch(VehicleServiceException e) {
-                Log.e(TAG, "Unable to start Bluetooth interface", e);
+
             }
         }
     }
@@ -148,7 +147,7 @@ public class BluetoothPreferenceManager extends VehiclePreferenceManager {
                 if(device.getBondState() != BluetoothDevice.BOND_BONDED) {
                     String summary = device.getName() + " (" +
                             device.getAddress() + ")";
-                    Log.d(TAG, "Found unpaired device: " + summary);
+
                     mDiscoveredDevices.put(device.getAddress(), summary);
                     persistCandidateDiscoveredDevices();
                 }
